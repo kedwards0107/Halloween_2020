@@ -5,7 +5,12 @@ import gspread
 from pprint import pprint
 from oauth2client.service_account import ServiceAccountCredentials
 
-
+# Google Sheets setup
+scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/spreadsheets",
+         "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
+creds =  #removed for security
+client = gspread.authorize(creds)
+sheet = client.open("Halloween").sheet1  # Open the spreadsheet
 
 # Set GPIO mode
 GPIO.setmode(GPIO.BCM)
