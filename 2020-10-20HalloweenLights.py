@@ -1,6 +1,11 @@
 import RPi.GPIO as GPIO
 import time
 from multiprocessing import Process
+import gspread
+from pprint import pprint
+from oauth2client.service_account import ServiceAccountCredentials
+
+
 
 # Set GPIO mode
 GPIO.setmode(GPIO.BCM)
