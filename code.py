@@ -8,7 +8,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 # Google Sheets setup
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/spreadsheets",
          "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
-creds =  #removed for security
+creds = ServiceAccountCredentials.from_json_keyfile_name("creds.json", scope) #creds.json not saved on github for security
 client = gspread.authorize(creds)
 sheet = client.open("Halloween").sheet1  # Open the spreadsheet
 
