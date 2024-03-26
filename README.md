@@ -1,1 +1,1 @@
-![](clip.mp4)
+![](clip.gif)
