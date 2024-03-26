@@ -1,1 +1,1 @@
-![](clip.gif)
+![](giphy.gif)
