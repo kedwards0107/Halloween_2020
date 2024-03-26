@@ -1,3 +1,5 @@
+<h1>Halloween Candy Dispenser - 2020</h1>
+
 ![](giphy.gif)
 
 <p>More details and pictues can be found in my portfolio: https://kedwards0107.github.io/halloween2020.html</p> 
